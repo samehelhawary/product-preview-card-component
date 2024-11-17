@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Preview Card Component</title>
+  </head>
+  <body>
+      <div class="flex justify-center items-center min-h-screen">
+        <div class="flex flex-col bg-white w-[343px] h-[611px] md:flex-row md:w-[600px] md:h-[450px] rounded-[10px]">
+          <img src="images/image-product-mobile.jpg" class="rounded-t-[10px] md:hidden" alt="">
+          <img src="images/image-product-desktop.jpg" class="sm:not(md):rounded-t-[10px] sm:hidden md:flex md:rounded-l-[10px]" alt="">
+          <div class="p-6 md:p-8 flex flex-col space-y-4 md:space-y-6">
+            <p class="font-sans font-medium tracking-[5px] text-xs text-aurometal-saurus">PERFUME</p>
+            <p class="font-serif font-bold text-[32px] leading-8 text-gunmetal">Gabrielle Essence Eau De Parfum</p>
+            <p class="font-sans font-medium text-sm leading-[23px] text-aurometal-saurus">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="flex flex-row items-center">
+              <p class="text-deep-aquamarine font-serif font-bold text-[32px] leading-8">$149.99</p>
+              <p class="text-aurometal-saurus pl-4 font-medium text-[13px] leading-[23px] line-through">$169.99</p>
+            </div>
+            <button class="w-full h-12 rounded-lg bg-deep-aquamarine hover:bg-deep-aquamarine-hover text-white flex flex-row justify-center items-center space-x-2 font-sans text-sm font-bold"><img src="images/icon-cart.svg" alt=""><span>Add to Cart</span></button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

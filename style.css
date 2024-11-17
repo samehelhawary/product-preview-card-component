@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aurometal-saurus: rgba(108, 114, 137, 1);
+  --body-font-family: "Montserrat", Helvetica;
+  --body-font-size: 14px;
+  --body-font-style: normal;
+  --body-font-weight: 500;
+  --body-letter-spacing: 0px;
+  --body-line-height: 23px;
+  --button-text-font-family: "Montserrat", Helvetica;
+  --button-text-font-size: 14px;
+  --button-text-font-style: normal;
+  --button-text-font-weight: 700;
+  --button-text-letter-spacing: 0px;
+  --button-text-line-height: normal;
+  --cream-bg: rgba(242, 234, 226, 1);
+  --deep-aquamarine: rgba(61, 129, 104, 1);
+  --deep-aquamarine-hover: rgba(26, 64, 50, 1);
+  --display-font-family: "Fraunces", Helvetica;
+  --display-font-size: 32px;
+  --display-font-style: normal;
+  --display-font-weight: 700;
+  --display-letter-spacing: 0px;
+  --display-line-height: 32px;
+  --gunmetal: rgba(28, 35, 43, 1);
+  --overline-font-family: "Montserrat", Helvetica;
+  --overline-font-size: 12px;
+  --overline-font-style: normal;
+  --overline-font-weight: 500;
+  --overline-letter-spacing: 5px;
+  --overline-line-height: normal;
+  --pure-white: rgba(255, 255, 255, 1);
+}
+
+body {
+  @apply font-sans bg-cream;
+}
